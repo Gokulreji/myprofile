@@ -17,13 +17,13 @@ $(document).ready(function(){
     });
 //    typing animation
     var typed=new Typed(".typing",{
-        strings: [" Web Developer","Python Developer","Front-edn Developing","Back-end developing"],
+        strings: [" Web Developer","Python Developer","Front-end Developing","Back-end developing"],
         typeSpeed:100,
         backSpeed:50,
         loop:true
     });
      var typed=new Typed(".typing2",{
-            strings: [" Web Developer","Python Developer","Front-edn Developing","Back-end developing"],
+            strings: [" Web Developer","Python Developer","Front-end Developing","Back-end developing"],
             typeSpeed:100,
             backSpeed:50,
             loop:true
