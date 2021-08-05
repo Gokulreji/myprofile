@@ -25,7 +25,9 @@ html{
 }
 .navbar.sticky{
      padding:30px 0;
-      background:crimson;
+     background:#222;
+     height:80px;
+
 }
 
 
@@ -37,9 +39,13 @@ html{
 .navbar .logo a span{
     color:crimson;
 }
-.navbar.sticky .logo a span{
-    color:#fff;
+.navbar.sticky .logo a,span{
+    color:crimson;
      transition:all 1s ease;
+     }
+.navbar.sticky .logo a span{
+    color:white;
+    transition:all 1s ease;
 }
 .navbar .menu li a{
     color:#fff;
@@ -53,7 +59,7 @@ html{
 
 }
 .navbar.sticky .menu li a:hover{
-    color:#fff;
+    color:crimson;
     }
 .navbar .menu li{
     list-style:none;
@@ -300,6 +306,7 @@ section .title::after{
     font-size:25px;
     font-weight:500;
     margin-bottom:10x;
+    margin-top:60px;
 }
 .skill .skill-content .left p{
     text-align:justify;
@@ -318,11 +325,12 @@ section .title::after{
 .skill .skill-content .right span{
     font-size:19px;
     font-weight:500;
+    color:crimson;
 }
 .skill .skill-content .right .line{
     height:5px;
     width:100%;
-    background:lightgrey;
+    background:#fff;
     position:relative;
 }
 .skill .skill-content .right .line::before{
@@ -330,7 +338,7 @@ section .title::after{
     position:absolute;
     height:100%;
     width:100%;
-    background:crimson;
+    background:gray;
 }
 .skill .skill-content .right .html::before{
     width:80%;
@@ -348,6 +356,9 @@ section .title::after{
     width:50%;
 }
 /*contact section*/
+        .contact .max-width{
+        margin-top:150px;
+        }
 
     .contact .title::after{
         content: "get in touch";
@@ -459,11 +470,10 @@ section .title::after{
     margin-right:500px;
 }
 .max-width .social-media a{
-        color:crimson;
+        color:#fff;
 }
 .max-width .social-media a:hover{
-    color:#222;
-    text-shadow:2px 0;
+    color:crimson;
     transition: color 0.3s ease
 }
 .max-width .social-media span{
@@ -474,15 +484,32 @@ section .title::after{
 
     /*footer section*/
     footer{
-        background:crimson;
+        background:#12151F;
         color:#fff;
         text-align:center;
-        height:30px;
+        height:150px;
         font-size:14px;
         padding:5px 0px;
     }
+    footer .footer-content,span{
+        margin-top:16px;
+        color:#fff;
+    }
+    footer .footer-content{
+    margin-left:250px;
+    }
+
     .footer{
     margin-top:300px;}
+
+    .footer .follow{
+    font-size:25px;
+    margin-right:60px;
+    text-align:center;
+    }
+    .footer .social-content{
+    margin-left:60px;
+    }
 
 
 /*responsive media query starting*/
