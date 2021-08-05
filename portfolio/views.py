@@ -4,7 +4,7 @@ from . import settings
 
 
 def profile(request):
-    if request.method ==  'POST':
+    if request.method == 'POST':
         name = request.POST.get('name')
         email = request.POST.get('email')
         subject = request.POST.get('subject')

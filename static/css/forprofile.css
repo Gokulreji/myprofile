@@ -251,7 +251,7 @@ section .title::after{
 .education{
     color:#fff;
     background:#111;
-    height:550px;
+    height:670px;
 }
 .education .title::before{
     background:#fff;
@@ -270,6 +270,9 @@ section .title::after{
     cursor:pointer;
     float:left;
     margin-left:20px;
+}
+.education .education-content{
+    margin-top:80px;
 }
 .education .education-content .card i{
     font-size:50px;
@@ -357,7 +360,7 @@ section .title::after{
 }
 /*contact section*/
         .contact .max-width{
-        margin-top:150px;
+        margin-top:120px;
         }
 
     .contact .title::after{
@@ -458,7 +461,25 @@ section .title::after{
       color: crimson;
       background: none;
     }
-
+    center button{
+    color: #fff;
+      display: block;
+      width: 160px!important;
+      height: 45px;
+      outline: none;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 6px;
+      cursor: pointer;
+      flex-wrap: nowrap;
+      background: crimson;
+      border: 2px solid crimson;
+      transition: all 0.3s ease;
+      margin-top:50px;
+    }
+center{
+margin-top:150px;
+}
 /*social media section*/
 .max-width .social-content{
     margin:left:100px;
@@ -466,7 +487,7 @@ section .title::after{
 .max-width .social-media{
     float:right;
     padding:0px 30px;
-    margin-top:30px;
+    margin-top:50px;
     margin-right:500px;
 }
 .max-width .social-media a{
@@ -477,7 +498,7 @@ section .title::after{
     transition: color 0.3s ease
 }
 .max-width .social-media span{
-    padding:0px 10px;
+    padding:0px 14px;
 }
 
 
@@ -487,7 +508,7 @@ section .title::after{
         background:#12151F;
         color:#fff;
         text-align:center;
-        height:150px;
+        height:210px;
         font-size:14px;
         padding:5px 0px;
     }
@@ -496,7 +517,9 @@ section .title::after{
         color:#fff;
     }
     footer .footer-content{
-    margin-left:250px;
+   align:center;
+   padding:50px 500px;
+   margin-top:80px;
     }
 
     .footer{
@@ -506,9 +529,10 @@ section .title::after{
     font-size:25px;
     margin-right:60px;
     text-align:center;
+    margin-top:10px;
     }
     .footer .social-content{
-    margin-left:60px;
+    margin-left:110px;
     }
 
 
