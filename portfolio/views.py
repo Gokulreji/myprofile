@@ -16,10 +16,13 @@ def profile(request):
         }
         msg='''
             New message: {}
+              
+            subject: {}
             
+            name:{}
             
             from: {}
-        '''.format(data['message'],data['email'])
+        '''.format(data['message'],data['subject'],data['name'],data['email'])
         to = [settings.EMAIL_HOST_USER]
         send_mail(data['message'],msg,data['email'],to)
         return render(request,'index.html',{'name':name})
